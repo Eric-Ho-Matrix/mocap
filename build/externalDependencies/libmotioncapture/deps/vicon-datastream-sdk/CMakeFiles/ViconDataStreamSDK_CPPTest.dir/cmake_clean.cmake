@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ViconDataStreamSDK_CPPTest.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp.o"
-  "CMakeFiles/ViconDataStreamSDK_CPPTest.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp.o.d"
   "ViconDataStreamSDK_CPPTest"
   "ViconDataStreamSDK_CPPTest.pdb"
 )

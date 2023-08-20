@@ -1,14 +1,34 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/qin/mocap/src/mocap_helper.cpp" "/home/qin/mocap/build/CMakeFiles/mocap_helper.dir/src/mocap_helper.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "ROSCONSOLE_BACKEND_LOG4CXX"
+  "ROS_BUILD_SHARED_LIBS=1"
+  "ROS_PACKAGE_NAME=\"crazyswarm\""
+  "qh_QHpointer"
+  "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+  "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qin/mocap/src/mocap_helper.cpp" "CMakeFiles/mocap_helper.dir/src/mocap_helper.cpp.o" "gcc" "CMakeFiles/mocap_helper.dir/src/mocap_helper.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "devel/include"
+  "/usr/include/vtk-7.1"
+  "/usr/include/freetype2"
+  "/opt/ros/noetic/include"
+  "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/eigen3"
+  "../externalDependencies/libmotioncapture/include"
+  "../externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP"
+  "../externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk"
   )
 
 # Targets to which this target links.

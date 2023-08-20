@@ -1,17 +1,30 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Markup.cpp" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Markup.cpp.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Network.cpp" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Network.cpp.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTPacket.cpp" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTPacket.cpp.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTProtocol.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_DATE_TIME_NO_LIB"
+  "BOOST_REGEX_NO_LIB"
+  "ENABLE_OPTITRACK"
+  "ENABLE_OPTITRACK_CLOSED_SOURCE"
+  "ENABLE_QUALISYS"
+  "ENABLE_VICON"
+  "_BUILD_STATIC_LIB"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Markup.cpp" "externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Markup.cpp.o" "gcc" "externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Markup.cpp.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Network.cpp" "externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Network.cpp.o" "gcc" "externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Network.cpp.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTPacket.cpp" "externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTPacket.cpp.o" "gcc" "externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTPacket.cpp.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp" "externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTProtocol.cpp.o" "gcc" "externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTProtocol.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk"
   )
 
 # Targets to which this target links.

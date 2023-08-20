@@ -1,14 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/quat.dir/matrix.c.o"
-  "CMakeFiles/quat.dir/matrix.c.o.d"
   "CMakeFiles/quat.dir/quat.c.o"
-  "CMakeFiles/quat.dir/quat.c.o.d"
   "CMakeFiles/quat.dir/vector.c.o"
-  "CMakeFiles/quat.dir/vector.c.o.d"
   "CMakeFiles/quat.dir/xyzquat.c.o"
-  "CMakeFiles/quat.dir/xyzquat.c.o.d"
+  "libquat.a"
   "libquat.pdb"
-  "libquat.so"
 )
 
 # Per-language clean rules from dependency scanning.

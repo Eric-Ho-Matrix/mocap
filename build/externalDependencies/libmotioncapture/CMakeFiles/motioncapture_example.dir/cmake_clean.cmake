@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/motioncapture_example.dir/examples/main.cpp.o"
-  "CMakeFiles/motioncapture_example.dir/examples/main.cpp.o.d"
   "motioncapture_example"
   "motioncapture_example.pdb"
 )

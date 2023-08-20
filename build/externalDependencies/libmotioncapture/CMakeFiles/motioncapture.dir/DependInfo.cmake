@@ -1,14 +1,37 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/qin/mocap/externalDependencies/libmotioncapture/src/python_bindings.cpp" "/home/qin/mocap/build/externalDependencies/libmotioncapture/CMakeFiles/motioncapture.dir/src/python_bindings.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_DATE_TIME_NO_LIB"
+  "BOOST_REGEX_NO_LIB"
+  "ENABLE_OPTITRACK"
+  "ENABLE_OPTITRACK_CLOSED_SOURCE"
+  "ENABLE_QUALISYS"
+  "ENABLE_VICON"
+  "ENABLE_VRPN"
+  "_BUILD_STATIC_LIB"
+  "motioncapture_EXPORTS"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qin/mocap/externalDependencies/libmotioncapture/src/python_bindings.cpp" "externalDependencies/libmotioncapture/CMakeFiles/motioncapture.dir/src/python_bindings.cpp.o" "gcc" "externalDependencies/libmotioncapture/CMakeFiles/motioncapture.dir/src/python_bindings.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../externalDependencies/libmotioncapture/include"
+  "/usr/include/eigen3"
+  "../externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream"
+  "../externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include"
+  "../externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk"
+  "../externalDependencies/libmotioncapture/deps/vrpn"
+  "../externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP"
+  "../externalDependencies/libmotioncapture/deps/pybind11/include"
+  "/usr/include/python3.8"
   )
 
 # Targets to which this target links.

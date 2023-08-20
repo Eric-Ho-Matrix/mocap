@@ -1,17 +1,34 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/quat/matrix.c" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/matrix.c.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/quat/quat.c" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/quat.c.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/quat/vector.c" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/vector.c.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/quat/xyzquat.c" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/xyzquat.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "BOOST_DATE_TIME_NO_LIB"
+  "BOOST_REGEX_NO_LIB"
+  "ENABLE_OPTITRACK"
+  "ENABLE_OPTITRACK_CLOSED_SOURCE"
+  "ENABLE_QUALISYS"
+  "ENABLE_VICON"
+  "ENABLE_VRPN"
+  "_BUILD_STATIC_LIB"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/quat/matrix.c" "externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/matrix.c.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/matrix.c.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/quat/quat.c" "externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/quat.c.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/quat.c.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/quat/vector.c" "externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/vector.c.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/vector.c.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/quat/xyzquat.c" "externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/xyzquat.c.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/xyzquat.c.o.d"
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "externalDependencies/libmotioncapture/deps/vrpn"
+  "../externalDependencies/libmotioncapture/deps/vrpn"
+  "../externalDependencies/libmotioncapture/deps/vrpn/atmellib"
+  "../externalDependencies/libmotioncapture/deps/vrpn/quat"
   )
 
 # Targets to which this target links.

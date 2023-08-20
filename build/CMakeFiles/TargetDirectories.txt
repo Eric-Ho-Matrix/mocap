@@ -116,6 +116,7 @@
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/list_install_components.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/rebuild_cache.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/test.dir
+/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/edit_cache.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/NightlyMemCheck.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/NightlyTest.dir
@@ -138,6 +139,7 @@
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/NightlyStart.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/ExperimentalCoverage.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/NightlyCoverage.dir
+/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/all_cppcheck.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/ExperimentalStart.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/NightlyBuild.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/ExperimentalBuild.dir
@@ -146,7 +148,6 @@
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/ContinuousMemCheck.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/ContinuousTest.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/ContinuousSubmit.dir
-/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/install/strip.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/install/local.dir
 /home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/install.dir

@@ -1,48 +1,60 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog_Output.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog_Output.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Assert.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Assert.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Auxiliary_Logger.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_BaseClass.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_BaseClass.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Button.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Button.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Connection.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Connection.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Dial.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Dial.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_EndpointContainer.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileConnection.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileConnection.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileController.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileController.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForceDevice.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForceDevice.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Forwarder.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Forwarder.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForwarderController.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForwarderController.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FunctionGenerator.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FunctionGenerator.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Imager.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Imager.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_LamportClock.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_LamportClock.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Mutex.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Mutex.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Poser.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Poser.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_RedundantTransmission.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_RedundantTransmission.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Serial.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Serial.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SerialPort.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SerialPort.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Shared.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Shared.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SharedObject.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SharedObject.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Sound.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Sound.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Text.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Text.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Thread.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Thread.C.o"
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Tracker.C" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Tracker.C.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_DATE_TIME_NO_LIB"
+  "BOOST_REGEX_NO_LIB"
+  "ENABLE_OPTITRACK"
+  "ENABLE_OPTITRACK_CLOSED_SOURCE"
+  "ENABLE_QUALISYS"
+  "ENABLE_VICON"
+  "ENABLE_VRPN"
+  "VRPN_USING_CMAKE=\"/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\""
+  "_BUILD_STATIC_LIB"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog_Output.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog_Output.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog_Output.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Assert.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Assert.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Assert.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Auxiliary_Logger.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Auxiliary_Logger.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_BaseClass.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_BaseClass.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_BaseClass.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Button.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Button.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Button.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Connection.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Connection.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Connection.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Dial.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Dial.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Dial.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_EndpointContainer.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_EndpointContainer.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileConnection.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileConnection.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileConnection.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileController.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileController.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileController.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForceDevice.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForceDevice.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForceDevice.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Forwarder.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Forwarder.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Forwarder.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForwarderController.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForwarderController.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForwarderController.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FunctionGenerator.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FunctionGenerator.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FunctionGenerator.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Imager.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Imager.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Imager.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_LamportClock.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_LamportClock.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_LamportClock.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Mutex.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Mutex.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Mutex.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Poser.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Poser.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Poser.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_RedundantTransmission.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_RedundantTransmission.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_RedundantTransmission.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Serial.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Serial.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Serial.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SerialPort.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SerialPort.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SerialPort.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Shared.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Shared.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Shared.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SharedObject.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SharedObject.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SharedObject.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Sound.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Sound.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Sound.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Text.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Text.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Text.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Thread.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Thread.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Thread.C.o.d"
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Tracker.C" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Tracker.C.o" "gcc" "externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Tracker.C.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "externalDependencies/libmotioncapture/deps/vrpn"
+  "../externalDependencies/libmotioncapture/deps/vrpn"
+  "../externalDependencies/libmotioncapture/deps/vrpn/atmellib"
+  "../externalDependencies/libmotioncapture/deps/vrpn/quat"
   )
-
-# Pairs of files generated by the same build rule.
-set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/libvrpn.so" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/vrpn/libvrpn.so.0"
-  )
-
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES

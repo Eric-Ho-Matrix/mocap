@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/packetClient.dir/samples/PacketClient/PacketClient.cpp.o"
-  "CMakeFiles/packetClient.dir/samples/PacketClient/PacketClient.cpp.o.d"
   "CMakeFiles/packetClient.dir/src/main.cpp.o"
-  "CMakeFiles/packetClient.dir/src/main.cpp.o.d"
   "packetClient"
   "packetClient.pdb"
 )

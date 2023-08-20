@@ -1,14 +1,26 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/samples/SampleClient/SampleClient.cpp" "/home/qin/mocap/build/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/CMakeFiles/sampleClient.dir/samples/SampleClient/SampleClient.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_DATE_TIME_NO_LIB"
+  "BOOST_REGEX_NO_LIB"
+  "ENABLE_OPTITRACK"
+  "ENABLE_OPTITRACK_CLOSED_SOURCE"
+  "ENABLE_VICON"
+  "_BUILD_STATIC_LIB"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qin/mocap/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/samples/SampleClient/SampleClient.cpp" "externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/CMakeFiles/sampleClient.dir/samples/SampleClient/SampleClient.cpp.o" "gcc" "externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/CMakeFiles/sampleClient.dir/samples/SampleClient/SampleClient.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include"
   )
 
 # Targets to which this target links.
