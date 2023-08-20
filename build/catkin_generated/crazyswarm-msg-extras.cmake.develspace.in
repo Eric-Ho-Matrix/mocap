@@ -1,0 +1,2 @@
+set(crazyswarm_MESSAGE_FILES "/home/qin/mocap/msg/LogBlock.msg;/home/qin/mocap/msg/GenericLogData.msg;/home/qin/mocap/msg/FullState.msg;/home/qin/mocap/msg/VelocityWorld.msg;/home/qin/mocap/msg/TrajectoryPolynomialPiece.msg;/home/qin/mocap/msg/Hover.msg;/home/qin/mocap/msg/Position.msg")
+set(crazyswarm_SERVICE_FILES "")
